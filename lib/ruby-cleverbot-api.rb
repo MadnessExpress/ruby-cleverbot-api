@@ -22,7 +22,6 @@ class Cleverbot
   end
 
   def send_message(message)
-    puts @cs
     enc_message = CGI.escape(message.strip)
     url = "#{@api_url}&input=#{enc_message}&cs=#{@cs}"
     response = make_get(url)
