@@ -8,6 +8,8 @@ class Cleverbot
     401 => 'Cleverbot API key not valid',
     404 => 'Cleverbot API not found',
     413 => 'Cleverbot API request too large. Please limit requests to 8KB',
+    502 => 'Unable to get reply from API server, please contact Cleverbot Support',
+    504 => 'Unable to get reply from API server, please contact Cleverbot Support',
     503 => 'Cleverbot API: Too many requests from client'
   }.freeze
 
