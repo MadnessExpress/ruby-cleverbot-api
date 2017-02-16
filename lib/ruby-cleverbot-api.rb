@@ -12,7 +12,7 @@ class Cleverbot
   }.freeze
 
   def initialize(apikey)
-    @api_url = "#{URL}?key=#{apikey}&wrapper=cleverbot-api"
+    @api_url = "#{URL}?key=#{apikey}&wrapper=ruby-cleverbot-api"
     @cs = ''
   end
 

@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'ruby-cleverbot-api'
-  s.version     = '1.0.0'
+  s.version     = '1.0.2'
   s.date        = '2017-02-16'
   s.summary     = 'Access the official Cleverbot API'
   s.description = 'Access the official Cleverbot API'
@@ -8,6 +8,6 @@ Gem::Specification.new do |s|
   s.email       = 'FormalHellhound@gmail.com'
   s.files       = ['lib/ruby-cleverbot-api.rb']
   s.homepage    =
-    'http://rubygems.org/gems/ruby-cleverbot-api'
+    'https://github.com/FormalHellhound/ruby-cleverbot-api'
   s.license     = 'MIT'
 end
