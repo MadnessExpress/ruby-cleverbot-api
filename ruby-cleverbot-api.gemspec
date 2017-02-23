@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'ruby-cleverbot-api'
-  s.version     = '1.0.4'
-  s.date        = '2017-02-16'
+  s.version     = '1.0.5'
+  s.date        = '2017-02-23'
   s.summary     = 'Access the official Cleverbot API'
   s.description = 'Access the official Cleverbot API'
   s.authors     = ['FormalHellhound']
