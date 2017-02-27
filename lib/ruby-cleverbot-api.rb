@@ -33,4 +33,8 @@ class Cleverbot
     @cs = clever_response['cs']
     clever_response['output']
   end
+
+  def reset
+    @cs = ''
+  end
 end
